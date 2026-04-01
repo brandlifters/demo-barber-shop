@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Northline Barbers — Premium Cuts in the City</title>
+  <meta name="description" content="Northline Barbers — precision cuts, straight-razor shaves, and old-school craft in a modern space. Book your cut today." />
+
+  <!-- Google Fonts: Playfair Display + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ====================================================
+       NAV
+       ==================================================== -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+
+      <a href="#" class="nav-logo">
+        <span class="nav-logo-name">Northline Barbers</span>
+        <span class="nav-logo-tag">Est. 2014 · Premium Grooming</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="btn btn-primary nav-cta">Book Your Cut</a>
+
+      <!-- Mobile toggle -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </nav>
+
+
+  <!-- ====================================================
+       HERO
+       ==================================================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+
+    <!-- Decorative vertical lines -->
+    <div class="hero-lines" aria-hidden="true">
+      <span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span>
+    </div>
+
+    <div class="container">
+      <div class="hero-content">
+
+        <div class="hero-eyebrow">
+          <span class="hero-eyebrow-line"></span>
+          <span class="hero-eyebrow-text">Premium Barbershop · Downtown</span>
+        </div>
+
+        <h1 class="hero-title">
+          Where Sharp<br>
+          Meets <em>Style.</em>
+        </h1>
+
+        <p class="hero-body">
+          Precision cuts, classic shaves, and modern grooming — crafted by
+          barbers who take their work seriously. Walk out looking your best.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">
+            Book Your Cut
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#services" class="btn btn-outline">View Services</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Floating stat cards (hidden on mobile) -->
+    <div class="hero-stats" aria-hidden="true">
+      <div class="stat-card">
+        <div class="num">10+</div>
+        <div class="label">Years Open</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">5K+</div>
+        <div class="label">Happy Clients</div>
+      </div>
+      <div class="stat-card">
+        <div class="num">4.9</div>
+        <div class="label">Avg. Rating</div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ====================================================
+       ABOUT
+       ==================================================== -->
+  <section class="about section" id="about">
+    <div class="container about-grid">
+
+      <!-- Visual placeholder -->
+      <div class="about-visual">
+        <div class="about-img-block">
+          <div class="about-img-inner">
+            <div class="year-badge">— Established 2014 —</div>
+            <div class="shop-name">Northline<br>Barbers</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text content -->
+      <div class="about-text">
+        <span class="section-label">Our Story</span>
+        <h2 class="section-title">More Than a Haircut.<br>It's a Ritual.</h2>
+        <div class="gold-divider"></div>
+        <p class="section-sub">
+          Northline Barbers opened its doors in 2014 with a simple belief: every
+          man deserves a great barber. Since then, we've built a reputation for
+          precision, consistency, and a shop that feels like yours.
+        </p>
+
+        <ul class="about-list">
+          <li>Master barbers with 5+ years of professional training</li>
+          <li>Hot-towel straight-razor shaves done right, every time</li>
+          <li>A clean, focused environment — no distractions, just craft</li>
+          <li>Walk-ins welcome; appointments always prioritised</li>
+        </ul>
+
+        <a href="#services" class="btn btn-outline">Explore Our Services</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ====================================================
+       SERVICES
+       ==================================================== -->
+  <section class="services section" id="services">
+    <div class="container">
+
+      <div class="services-header">
+        <div>
+          <span class="section-label">What We Offer</span>
+          <h2 class="section-title">The Full Menu</h2>
+          <div class="gold-divider"></div>
+        </div>
+        <p class="section-sub" style="max-width:360px">
+          Straightforward pricing. No surprises. Every service is done with
+          the same level of attention — whether it's a quick tidy or the full
+          works.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- 1 -->
+        <div class="service-card">
+          <span class="service-icon">✂️</span>
+          <div class="service-name">Classic Cut</div>
+          <p class="service-desc">
+            Our signature haircut — scissor or clipper finish, styled and
+            set to leave you looking clean for weeks.
+          </p>
+          <div class="service-price">$35 <span>/ 45 min</span></div>
+        </div>
+
+        <!-- 2 -->
+        <div class="service-card">
+          <span class="service-icon">🪒</span>
+          <div class="service-name">Straight Razor Shave</div>
+          <p class="service-desc">
+            Hot towel prep, premium shaving cream, and a straight-razor
+            finish. The closest shave you'll ever get.
+          </p>
+          <div class="service-price">$45 <span>/ 40 min</span></div>
+        </div>
+
+        <!-- 3 -->
+        <div class="service-card">
+          <span class="service-icon">💈</span>
+          <div class="service-name">Cut & Shave Combo</div>
+          <p class="service-desc">
+            The full experience. Get your cut and shave done back-to-back
+            for the ultimate refresh.
+          </p>
+          <div class="service-price">$70 <span>/ 75 min</span></div>
+        </div>
+
+        <!-- 4 -->
+        <div class="service-card">
+          <span class="service-icon">🧔</span>
+          <div class="service-name">Beard Trim & Shape</div>
+          <p class="service-desc">
+            Precision beard sculpting — lines cleaned up, bulk managed,
+            and natural shape enhanced.
+          </p>
+          <div class="service-price">$25 <span>/ 30 min</span></div>
+        </div>
+
+        <!-- 5 -->
+        <div class="service-card">
+          <span class="service-icon">👦</span>
+          <div class="service-name">Junior Cut</div>
+          <p class="service-desc">
+            For the young crew — patient barbers, fun environment, and a
+            clean result every time. Under 12 years old.
+          </p>
+          <div class="service-price">$22 <span>/ 30 min</span></div>
+        </div>
+
+        <!-- 6 — CTA card -->
+        <div class="service-card" style="display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:16px;background:linear-gradient(135deg,rgba(201,168,76,0.1),rgba(201,168,76,0.03))">
+          <div class="service-name" style="font-size:18px">Not sure what you need?</div>
+          <p class="service-desc" style="margin:0">
+            Come in for a consultation — we'll figure out the right cut and
+            style for you, no charge.
+          </p>
+          <a href="#contact" class="btn btn-primary" style="margin-top:8px">Book Now</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ====================================================
+       WHY CHOOSE US
+       ==================================================== -->
+  <section class="why section" id="why-us">
+    <div class="container">
+
+      <div style="text-align:center;max-width:560px;margin:0 auto">
+        <span class="section-label">Why Northline</span>
+        <h2 class="section-title">Built Different.<br>Because You Are.</h2>
+        <div class="gold-divider" style="margin:20px auto 0"></div>
+      </div>
+
+      <div class="why-grid">
+
+        <div class="why-item">
+          <div class="why-num">01</div>
+          <div class="why-title">Master-Level Craft</div>
+          <p class="why-desc">
+            Every barber on our floor has completed advanced training and logged
+            thousands of cuts before their first day with us.
+          </p>
+        </div>
+
+        <div class="why-item">
+          <div class="why-num">02</div>
+          <div class="why-title">Consistent Results</div>
+          <p class="why-desc">
+            We keep notes on every client. Your next visit picks up exactly
+            where the last one left off — same style, same finish.
+          </p>
+        </div>
+
+        <div class="why-item">
+          <div class="why-num">03</div>
+          <div class="why-title">Premium Products Only</div>
+          <p class="why-desc">
+            We use professional-grade pomades, clays, and grooming products
+            that you can't pick up at the drugstore.
+          </p>
+        </div>
+
+        <div class="why-item">
+          <div class="why-num">04</div>
+          <div class="why-title">Respect Your Time</div>
+          <p class="why-desc">
+            Appointments run on time. Walk-ins are managed honestly. We'll
+            never keep you sitting around wondering.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ====================================================
+       TESTIMONIALS
+       ==================================================== -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+
+      <div class="testimonials-header">
+        <span class="section-label">Client Reviews</span>
+        <h2 class="section-title">What People Are Saying</h2>
+        <div class="gold-divider"></div>
+      </div>
+
+      <div class="testimonials-grid">
+
+        <!-- 1 -->
+        <div class="testimonial-card">
+          <div class="stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <p class="testimonial-text">
+            "Been going to Northline for three years now and I wouldn't trust
+            anyone else with my fade. Marcus knows exactly what I want without
+            me even having to explain it anymore."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">J</div>
+            <div>
+              <div class="author-name">James Holloway</div>
+              <div class="author-label">Regular client since 2021</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="testimonial-card">
+          <div class="stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <p class="testimonial-text">
+            "First straight-razor shave I've ever had. The hot towel, the whole
+            process — it was genuinely relaxing. Face felt incredible after.
+            Already booked again."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">D</div>
+            <div>
+              <div class="author-name">Daniel Krause</div>
+              <div class="author-label">New client</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="testimonial-card">
+          <div class="stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <p class="testimonial-text">
+            "I bring my son in every 3 weeks. The guys here are patient with
+            kids and always make him feel comfortable. He actually looks forward
+            to getting his hair cut now."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">R</div>
+            <div>
+              <div class="author-name">Ryan Torres</div>
+              <div class="author-label">Regular client since 2022</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ====================================================
+       CONTACT
+       ==================================================== -->
+  <section class="contact section" id="contact">
+    <div class="container contact-grid">
+
+      <!-- Left: Info -->
+      <div>
+        <span class="section-label">Find Us</span>
+        <h2 class="section-title">Come In.<br>We're Ready.</h2>
+        <div class="gold-divider"></div>
+        <p class="section-sub">
+          Drop by, give us a ring, or book online. No fuss — just great cuts
+          and a shop you'll want to come back to.
+        </p>
+
+        <div class="contact-info">
+
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <div class="contact-item-title">Address</div>
+              <div class="contact-item-val">142 Northline Avenue<br>Downtown, CA 90012</div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <div class="contact-item-title">Phone</div>
+              <div class="contact-item-val">(213) 555-0187</div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <div class="contact-item-title">Email</div>
+              <div class="contact-item-val">hello@northlinebarbers.com</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Right: Hours + CTA -->
+      <div>
+        <table class="hours-table">
+          <caption>Opening Hours</caption>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>9:00 AM – 7:00 PM</td>
+            </tr>
+            <tr>
+              <td>Tuesday – Friday</td>
+              <td>9:00 AM – 8:00 PM</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>8:00 AM – 6:00 PM</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>10:00 AM – 4:00 PM</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="contact-cta">
+          <p>Ready for your best cut yet?</p>
+          <!-- No real booking backend — CTA is decorative -->
+          <a href="tel:+12135550187" class="btn btn-primary">Book Your Cut →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ====================================================
+       FOOTER
+       ==================================================== -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <!-- Brand -->
+        <div>
+          <div class="footer-brand-name">Northline Barbers</div>
+          <div class="footer-brand-tag">Premium Grooming · Est. 2014</div>
+          <p class="footer-brand-desc">
+            Master barbers. Modern space. Timeless craft. Located in the heart
+            of downtown — walk-ins welcome, appointments preferred.
+          </p>
+        </div>
+
+        <!-- Quick links -->
+        <div>
+          <div class="footer-col-title">Quick Links</div>
+          <ul class="footer-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services & Prices</a></li>
+            <li><a href="#why-us">Why Northline</a></li>
+            <li><a href="#testimonials">Client Reviews</a></li>
+            <li><a href="#contact">Contact & Hours</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div>
+          <div class="footer-col-title">Services</div>
+          <ul class="footer-links">
+            <li><a href="#services">Classic Cut — $35</a></li>
+            <li><a href="#services">Straight Razor Shave — $45</a></li>
+            <li><a href="#services">Cut & Shave Combo — $70</a></li>
+            <li><a href="#services">Beard Trim & Shape — $25</a></li>
+            <li><a href="#services">Junior Cut — $22</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          &copy; 2024 <span>Northline Barbers</span>. All rights reserved.
+        </p>
+        <p class="footer-badge">Demo site — BrandLifters Pipeline Test</p>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- ====================================================
+       JS — Nav scroll + mobile toggle
+       ==================================================== -->
+  <script>
+    // Sticky nav shadow on scroll
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // Mobile nav toggle
+    const toggle = document.getElementById('nav-toggle');
+    const links  = document.getElementById('nav-links');
+
+    toggle.addEventListener('click', () => {
+      links.classList.toggle('open');
+    });
+
+    // Close mobile nav when a link is clicked
+    links.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => links.classList.remove('open'));
+    });
+  </script>
+
+</body>
+</html>

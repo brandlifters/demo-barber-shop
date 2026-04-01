@@ -1,0 +1,13 @@
+{
+  "name": "barber-demo",
+  "industry": "Barber Shop",
+  "title": "Northline Barbers",
+  "description": "A premium barbershop demo website built for BrandLifters portfolio testing.",
+  "tags": ["barber", "grooming", "local-business"],
+  "primaryColor": "#111111",
+  "accentColor": "#C9A84C",
+  "repoName": "demo-barber-shop",
+  "vercelProjectName": "demo-barber-shop",
+  "localPath": "C:/Users/abdul/brandlifters-material/brandlifters-demo/barber-demo",
+  "previewUrl": ""
+}

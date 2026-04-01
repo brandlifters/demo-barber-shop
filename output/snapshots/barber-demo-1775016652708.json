@@ -1,0 +1,20 @@
+{
+  "config": {
+    "name": "barber-demo",
+    "industry": "Barber Shop",
+    "title": "Northline Barbers",
+    "description": "A premium barber shop demo website.",
+    "tags": [
+      "barber",
+      "local"
+    ],
+    "primaryColor": "#111111",
+    "repoName": "demo-barber-shop",
+    "vercelProjectName": "demo-barber-shop",
+    "localPath": "C:/Users/abdul/brandlifters-material/brandlifters-demo/barber-demo",
+    "previewUrl": ""
+  },
+  "errors": [
+    "Bad credentials - https://docs.github.com/rest"
+  ]
+}

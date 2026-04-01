@@ -1,0 +1,13 @@
+2026-04-01 00:10:52 [[32minfo[39m] [32m═══════════════════════════════════════════════[39m
+2026-04-01 00:10:52 [[32minfo[39m] [32m  BrandLifters — publish-demo[39m
+2026-04-01 00:10:52 [[32minfo[39m] [32m═══════════════════════════════════════════════[39m
+2026-04-01 00:10:52 [[32minfo[39m] [32mLoading demo config from C:\Users\abdul\brandlifters-material\brandlifters-demo\barber-demo\demo.config.json[39m
+2026-04-01 00:10:52 [[32minfo[39m] [32mConfig loaded: [Barber Shop] Northline Barbers[39m
+2026-04-01 00:10:52 [[32minfo[39m] [32mDemo: Northline Barbers (Barber Shop)[39m
+2026-04-01 00:10:52 [[32minfo[39m] [32mRepo: demo-barber-shop[39m
+2026-04-01 00:10:52 [[32minfo[39m] [32m[39m
+[32m[Step 2/4] Ensuring GitHub repo...[39m
+2026-04-01 00:10:52 [[32minfo[39m] [32m[GitHub] Checking for repo: brandlifters/demo-barber-shop[39m
+2026-04-01 00:10:52 [[31merror[39m] [31m[39m
+[31m✖ Publish failed:[39m
+[31m  Bad credentials - https://docs.github.com/rest[39m
